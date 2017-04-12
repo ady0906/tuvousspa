@@ -15,15 +15,12 @@ h1 {
 
 .button-options {
   background-color: #FFF;
-  border-style: solid;
-  border-color: #4169e1;
   color: #4169e1;
 }
 
 .button-options:hover {
   background-color: #4169e1;
-  color: #FFF;
-  border-color: #FFF;
+  color: #FFF;  
 }
 
 .jumbotron {
