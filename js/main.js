@@ -258,14 +258,22 @@ let data = {
           },
 
     "not-adult": {
-      name: "I am a child",
+      name: "I am a kid",
       children: ["child-speaking-to-adult", "child-speaking-to-child"]
     },
 
+      "child-speaking-to-adult": {
+        name: "speaking to an adult",
+        children: []
+      },
 
+      "child-speaking-to-child": {
+        name: "speaking to a fellow kid",
+        answer: "Tu"
+      }
 
-        }
-      };
+  }
+};
 
 /** TEST CODE **/
 
