@@ -4,8 +4,13 @@
    Author's custom styles
    ========================================================================== */
 
+h1 {
+  text-align: center;
+  color: #FFF;
+}
+
 .button-options {
-  background-color: #ffffff;
+  background-color: #FFF;
   border-style: solid;
   border-color: #4169e1;
   color: #4169e1;
@@ -13,6 +18,10 @@
 
 .button-options:hover {
   background-color: #4169e1;
-  color: #ffffff;
-  border-color: #ffffff;
+  color: #FFF;
+  border-color: #FFF;
+}
+
+.jumbotron {
+  background-color: #0072BB;
 }
