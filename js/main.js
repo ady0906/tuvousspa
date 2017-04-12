@@ -297,7 +297,7 @@ $(function() {
     $list.empty();
     for(var i = 0; i < items.length; i++) {
       var item = items[i];
-      $list.append('<button><a href="#" data-choice="' + item.id + '">' + item.name + '</a></button>');
+      $list.append('<button class="btn btn-lg button-options"><a href="#" data-choice="' + item.id + '">' + item.name + '</a></button> <br><br>');
     }
   };
 
@@ -310,7 +310,6 @@ $(function() {
   $(document).on('click', '#choices a', function(e) {
     e.preventDefault();
     var choiceId = $(this).data('choice');
-    console.log('clicked', choiceId);
 
     var kids = tree.getChildren(choiceId);
     if(kids) {
