@@ -110,7 +110,7 @@ var DecisionTree = function(data) {
 
 /*** TEST DATA ***/
 
-let tree = {
+let data = {
   initial: ["adult", "not-adult"],
   choices: {
 
@@ -184,7 +184,7 @@ let tree = {
               "not-sure": {
                 name: "I am not sure",
                 children: ["feeling-lucky", "feeling-cautious"]
-              }
+              },
 
                 "feeling-lucky": {
                   name: "I am feeling lucky",
@@ -194,7 +194,7 @@ let tree = {
                 "feeling-cautious": {
                   name: "I am feeling cautious",
                   answer: "Vous"
-                }
+                },
 
 
         "spouse": {
@@ -255,7 +255,14 @@ let tree = {
           "younger-teacher": {
             name: "younger teacher",
             answer: "Tu"
-          }
+          },
+
+    "not-adult": {
+      name: "I am a child",
+      children: ["child-speaking-to-adult", "child-speaking-to-child"]
+    },
+
+
 
         }
       };
