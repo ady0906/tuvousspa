@@ -6,7 +6,7 @@ var DecisionTree = function(data) {
   /* Return an array of choice objects for the root of the tree */
   this.getInitial = function() {
 
-    if (!this.initial) throw 'DecisionTree: no initial choice(s) specified';
+    // if (!this.initial) throw 'DecisionTree: no initial choice(s) specified';
     return this.getChoices(this.initial);
 
   };
