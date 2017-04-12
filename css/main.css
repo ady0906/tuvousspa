@@ -9,6 +9,10 @@ h1 {
   color: #FFF;
 }
 
+#choices {
+  text-align: center;
+}
+
 .button-options {
   background-color: #FFF;
   border-style: solid;
