@@ -9,10 +9,10 @@ html * {
 }
 
 h1 {
-  font-family: 'Shrikhand', cursive !important; 
+  font-family: 'Shrikhand', cursive !important;
   color: black !important;
   text-align: center;
-  border-bottom: thin solid #FFF;
+  border-bottom: thin solid black;
   border-width: 1px;
 }
 
