@@ -24,6 +24,11 @@ h2 {
   text-align: center;
 }
 
+#frenchflag {
+  width: 8%;
+  length: 8%;
+}
+
 .button-options {
   background-color: #FFF;
   color: #4169e1;
