@@ -4,6 +4,10 @@
    Author's custom styles
    ========================================================================== */
 
+html * {
+  font-family: 'Roboto', sans-serif !important;
+}
+
 h1 {
   text-align: center;
   color: #FFF;
@@ -20,7 +24,7 @@ h1 {
 
 .button-options:hover {
   background-color: #4169e1;
-  color: #FFF;  
+  color: #FFF;
 }
 
 .jumbotron {
