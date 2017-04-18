@@ -281,7 +281,7 @@ $(function() {
 
   var tree = new DecisionTree(data);
   var $list = $('#choices');
-  var $title = $('h1');
+  var $title = $('h2');
 
   var current_id = null;
 
