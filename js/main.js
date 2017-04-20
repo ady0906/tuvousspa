@@ -329,6 +329,7 @@ $(function() {
 
     if(parents.length > 0) {
       var prev_node = parents.pop();
+      console.log(prev_node.id);
       current_id = prev_node.id;
       renderList(tree.getChildren(prev_node.id));
     } else {
