@@ -297,7 +297,7 @@ $(function() {
     $list.empty();
     for(var i = 0; i < items.length; i++) {
       var item = items[i];
-      $list.append('<button class="btn btn-lg button-options"><a href="#" data-choice="' + item.id + '">' + item.name + '</a></button> <br><br>');
+      $list.append('<button class="btn btn-lg button-options" data-choice=' + item.id + '>' + item.name + '</button> <br><br>');
     }
   };
 
@@ -307,7 +307,7 @@ $(function() {
       renderList(initData);
   };
 
-  $(document).on('click', '#choices a', function(e) {
+  $(document).on('click', '#choices button', function(e) {
     e.preventDefault();
     var choiceId = $(this).data('choice');
 
@@ -315,6 +315,8 @@ $(function() {
     if(kids) {
       current_id = choiceId;
       renderList(kids);
+    } else {
+      console.log('done!')
     }
   });
 
