@@ -11,9 +11,20 @@ html * {
 h1 {
   font-family: 'Shrikhand', cursive !important;
   color: white !important;
-  text-align: center;  
+  text-align: center;
 }
 
+#title-border {
+  text-align: center;
+  border-top: solid white 1px;
+  width: 17%;
+  margin-left: 41.5%;
+}
+
+#title-area {
+  margin-top: -8%;
+  margin-bottom: 5%;
+}
 
 h2 {
   text-align: center;
